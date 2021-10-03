@@ -1,17 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+*{
+    margin: 0;
+    padding:0;
+}
 :root{
-    padding: 10px ;
-    margin:-50px ;
-    box-sizing: border-box;
-    /* overflow: hidden; */
-    background-color: white;
+    --eclipse:#649549;
+    --buttons:#6CB840;
+    --texts:#EAAB1B;
+    --hot-deals:#C9ECB5;
+    --contact: #FFD77C;
+    --footer:#C9ECB5;
 
-}  
-
+}
+title{
+ color:var(--buttons)
+}
 .nav{
-    background-color: grey;
+    background-color: #E5E5E5;
     padding: 70px;
-    border-bottom-right-radius: ;
+    
+}
+.int{
+    Color:#6CB840;
+
+}
+.order{
+    color: var(--buttons);
+    border-radius:80 ;
+    
+
 }
 
 body{
@@ -27,6 +45,7 @@ ul{
 ul li{
     display:inline-block;
     justify-content: space-between;
+    
 }
 ul li a{
     color:black;
@@ -38,31 +57,150 @@ ul li a{
 ul li a:hover{
     color:blue;
 }
+.semi{
+    height: 400px;
+    width:100px;
+    border-bottom-right-radius: 400px;
+    border-bottom-left-radius: 300px;
+    color:var(--buttons);
+}
 .outside{
     display:flex;
     justify-content: space-between;
     padding: 40px 60px;
 }
 
+.second{
+    color: yellowgreen;
+}
 .eating{
     margin:10px;
-    width:500px;
+    width:650px;
 }
-.tot{
-    color:FFD77C;
+.explore{
+    color:grey;
 }
 
 .text{
     text-align:center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
-    font-size: 15px; 
+    font-size: 30px;  
 }
 
-.menu{
-    display:flex;
+/* MENU SECTION  */
+
+.menu {
+    padding: 80px 120x;
+}
+
+.explore-menu-items {
+    background-color:#EAF3E4;
+}
+
+.menu-items {
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+#main-title {
+    text-align: center;
+    padding: 40px 0px 60px 0px;
+    font-size: 70px;
+}
+
+#menu-span {
+    color: var(--buttons);
+}
+.item-one {
+    max-width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-bottom-right-radius: 40px;
+}
+
+#menu-title {
+    margin: 20px 0px 20px 10px;
+    font-size: 1.3rem;
+}
+.burgar {
+    display: flex;
+}
+
+#menu-img {
+    width: 8rem;
+    height: auto;
+    margin-left: -60px;
+}
+/* hot deals section */
+
+.hot-deals{
+    background-color: #C9ECB5;
     padding:20px;
-    background-color:EAF3E4;
-}
-    
 
+}
+#pg{
+    font-size:20px;
+    text-align: right;
+}
+
+.hot{
+    font-size:40px;
+    text-align: center;
+}
+#headings{
+    margin-right: 0px;
+}
+
+.special{
+    color:#6CB840;
+    text-align: right;
+
+}
+.pizz{
+    color:#6CB840;
+    text-align: right;
+}
+.fries{
+    color:#6CB840;
+    text-align: right;
+}
+
+#deals{
+    color:#6CB840;
+}
+.deals{
+    display: flex;
+}
+.bug{
+    padding:0px;
+}
+
+/* contact phase */
+.contact{
+    padding:20px;
+    background-color:#FFF5DD ;
+    width:100%;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    justify-content: space-between;
+}
+#us{
+    color:#496838;
+}
+#contact{
+    color: #496838;
+}
+
+
+
+
+/* footer */
+
+.footer{
+    background-color: #F1FAEC;
+    padding: 20px;
+}
