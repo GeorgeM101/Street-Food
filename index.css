@@ -1,4 +1,4 @@
-.container{
+.main{
     background-color: #E5E5E5;
     overflow: hidden;
     height: 500px;
@@ -111,8 +111,8 @@ body{
 }
 .hotdealscontent{
     background-color: #CAECB5;
-    /* margin-left: 100px; */
-    /* margin-right: 100px; */
+    margin-left: 100px;
+    margin-right: 100px;
     display: flex;
     justify-content: space-between;
     /* padding-left: 100px; */
