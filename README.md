@@ -1,8 +1,8 @@
 Table of content
-+ [Description](#description)
-+ [Technology Used](#technology-used)
++ [Description](#Description)
++ [Technology Used](#Technology-used)
 + [Licence](#licence)
-+ [Authors Info](#author-Info)
++ [Authors Info](#Author-Info)
 # description
 This is a website about a street food restaurant
 #  technology-used
@@ -22,13 +22,6 @@ furnished to do so, subject to the following conditions:
 ​
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
-​
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-# author-Info
+
+# Author-Info
 Name: George Mboya
