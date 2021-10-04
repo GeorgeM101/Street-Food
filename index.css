@@ -1,14 +1,24 @@
+font:@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
 .main{
     background-color: #E5E5E5;
     overflow: hidden;
     height: 500px;
 }
-.menu{
+.nav{
     display: flex;
     justify-content: space-between;
-    padding-right: 50px;
+    /* padding-right: 50px;
     position: relative;
-    z-index: 2;
+    z-index: 2; */
 }
 ul li{
     list-style: none;
@@ -44,19 +54,19 @@ body{
     border-left: 2px solid transparent;
     border-right: 2px solid transparent;
 }
-#image1{
+#img1{
     transform: translate(-50px, 100px);
 }
-#image2{
+#img2{
     transform: translate(-60px, -20px);
 }
-#image3{
+#img3{
     transform: translate(0px, -90px);
 }
-#image4{
+#img4{
     transform: translate(20px, 0px);
 }
-#image5{
+#img5{
     transform: translate(330px, 0px);
 }
 #center{
@@ -80,14 +90,14 @@ body{
     padding-top: 150px;
     width: 400px;
 }
-.exploremenu{
+.explore{
     background-color: #EAF3E4;
     margin-left: 100px;
     margin-right: 100px;
     padding-top: 20px;
-    text-align: center;
+    /*   */
 }
-.burgers{
+.burger{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -160,7 +170,7 @@ input[type=submit]{
 #green{
     color: #6BB946;
 }
-.contactus{
+.contact{
     background-color: #FFF5DD;
     margin-left: 100px;
     margin-right: 100px;
